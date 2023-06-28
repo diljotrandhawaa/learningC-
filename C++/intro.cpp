@@ -1,31 +1,38 @@
 #include <iostream>
+#include <cmath>
 
 using namespace std;
 
 int main() {
-    // tax amount calculate exercise
-    // double sales = 95000;
-    // int stateTax = 4;
-    // int countyTax = 2;
-    
-    // double totalTaxPaid = sales * (stateTax + countyTax)/100;
-    // cout << "Total tax to pay is " << totalTaxPaid;
+    // 1. tax amount calculate exercise --->
+        // double sales = 95000;
+        // int stateTax = 4;
+        // int countyTax = 2;
+        
+        // double totalTaxPaid = sales * (stateTax + countyTax)/100;
+        // cout << "Total tax to pay is " << totalTaxPaid;
 
 
-    // converting fahrenheit to celcius ;
+    // 2. converting fahrenheit to celcius --->
 
-    cout << "Enter the temperature in F: ";
-    double temp;
-    cin >> temp;
+        // cout << "Enter the temperature in F: ";
+        // double temp;
+        // cin >> temp;
 
-    int tempInCelcius = (temp - 32) / 1.8;
+        // int tempInCelcius = (temp - 32) / 1.8;
 
-    cout << "The temperature is " << tempInCelcius << " degree celcius";
-
-
+        // cout << "The temperature is " << tempInCelcius << " degree celcius";
 
 
 
+    // 3. Calculating Area of Circle --->
+
+    cout << "Enter the radius of the circle in cm: ";
+    double radiusEntered;
+    cin >> radiusEntered;
+
+    double areaOfCircle = 3.14 * pow(radiusEntered, 2);
+    cout << "The Area of the Circle is " << areaOfCircle << " cubic centimeters";
 
 
 
