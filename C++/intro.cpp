@@ -3,11 +3,14 @@
 using namespace std;
 
 int main() {
-    int num1 = 1;
-    int num2 = 2;
-    int temp = num1;
-    num1 = num2;
-    num2 = temp;
-    cout << "num1 = " << num1 << endl << "num2 = " << num2;
+
+
+    // tax amount calculate exercise
+    double sales = 95000;
+    int stateTax = 4;
+    int countyTax = 2;
+    
+    double totalTaxPaid = sales * (stateTax + countyTax)/100;
+    cout << "Total tax to pay is " << totalTaxPaid;
     return 0;
 }
